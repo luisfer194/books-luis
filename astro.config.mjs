@@ -9,4 +9,6 @@ export default defineConfig({
   integrations: [tailwind()],
   adapter: netlify(),
   output: "server"
+  site: "https://luisfer194.github.io",
+  base: "/books-luis",
 });
