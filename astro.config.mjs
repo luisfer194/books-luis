@@ -7,5 +7,5 @@ import nodejs from '@astrojs/node';
 export default defineConfig({
   integrations: [tailwind()],
   adapter: nodejs(),
-  output: "server",
+  output: "hybrid",
 });
