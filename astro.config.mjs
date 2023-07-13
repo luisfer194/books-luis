@@ -8,7 +8,7 @@ import netlify from "@astrojs/netlify/functions";
 export default defineConfig({
   integrations: [tailwind()],
   adapter: netlify(),
-  output: "server"
+  output: "server",
   site: "https://luisfer194.github.io",
   base: "/books-luis",
 });
